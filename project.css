@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 50px;
+  background: #27292a;
+  border-radius: 30px;
+}
+body {
+  background-color: #1f2122;
+}
+.navbar {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2122;
+}
+
+.searchsymbol {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: 345px;
+  top: 55px;
+}
+.Searching {
+  border-radius: 30px;
+  border: 1px grey solid;
+}
+
+.search {
+  padding: 15px;
+  padding-left: 40px;
+  border-radius: 30px;
+  background-color:#27292a;
+  position: relative;
+}
+
+.Profile {
+  display: flex;
+  padding: 30px 50px 20px 200px;
+  align-items: flex-end;
+  font-size: 0.9rem;
+}
+
+.Home {
+  padding: 10px;
+  display: flex;
+}
+
+.prof,
+.profileitem {
+  padding: 20px;
+  text-decoration: none;
+  color: #666666;
+  transition: all 0.3s;
+}
+.profilehome{
+  padding: 20px;
+  text-decoration: none;
+  color: #ec6090;
+}
+.profilereal {
+  border-radius: 30px;
+  background: #27292a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.profilereal:hover {
+  background: #ec6090;
+}
+
+.profilereal:hover .prof {
+  color: aliceblue;
+}
+
+.profileitem:hover {
+  color: #ec6090;
+}
+
+.img {
+  border-radius: 30px;
+}
+
+/* ---------------------------------------- */
+.mainbanner {
+  background: url("/project/img/banner-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.banneritem {
+  padding: 10px;
+}
+.firsttext {
+  color: white;
+}
+.secondtext {
+  width: 45%;
+  font-size: 45px;
+  color: white;
+}
+
+.Browsenow {
+  padding: 15px;
+  border-radius: 30px;
+  background: #ec6090;
+  color: white;
+  transition: all 0.3s;
+  width: 10%;
+}
+
+.Browsenow:hover {
+  background: white;
+  color: #ec6090;
+  cursor: pointer;
+}
+.secondtextem,
+.MostPopular {
+  font-style: normal;
+  color: #ec6090;
+}
+
+.flex img {
+  width: 15px;
+  height: 15px;
+}
+.flex2 img {
+  width: 15px;
+  height: 15px;
+}
+.mostpopulartext {
+  padding: 50px 0px 0px 20px;
+  margin: 50px 0px 0px 20px;
+}
+.mostpopulartext h1 {
+  color: #ec6090;
+  font-size: 35px;
+}
+.mostpopulartext em {
+  text-decoration: underline;
+  color: white;
+}
+
+.mostpopular {
+  background-color: #1f2122;
+  border-radius: 30px;
+}
+.mostpopularcontainer {
+  padding: 50px 1px 50px 12px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.popularitem {
+  width: 60%;
+  background-color: #27292a;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 40px;
+  gap: 20px;
+}
+
+.popularitem img {
+  border-radius: 30px;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.downloads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.flex {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.mostpopulargame {
+  font-weight: 700;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.genre {
+  color: grey;
+}
+
+.downloadview {
+  color: white;
+}
+
+.Discoverpopularbutton {
+  display: flex;
+  justify-content: center;
+}
+.Discoverpopularbutton button {
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 23px;
+  padding: 20px;
+  border-radius: 30px;
+  width: 15%;
+  color: white;
+  cursor: pointer;
+  background-color: #ec6090;
+  transition: all 0.4s;
+}
+.Discoverpopularbutton button:hover {
+  background-color: white;
+  color: #ec6090;
+}
+
+.YourGaming {
+  font-style: normal;
+  text-decoration: underline;
+  color: white;
+}
+
+.gaminglibrary h1 {
+  color: #ec6090;
+}
+
+.gaminglibrary {
+  background-color: #1f2122;
+  padding: 20px;
+  border-radius: 30px;
+}
+.gaminglibrarytitle {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.gaminglibraryitem img {
+  height: 80px;
+  width: 80px;
+  border-radius: 30px;
+}
+
+.textflex1 {
+  padding: 20px 90px 0px 50px;
+}
+
+.textflex2 {
+  padding: 20px 90px 0px 50px;
+}
+.textflex3 {
+  padding: 20px 100px 0px 50px;
+}
+
+.firstline {
+  width: 105%;
+  color: white;
+  font-weight: 700;
+}
+.bottomline {
+  width: 105%;
+  color: grey;
+}
+.gaminglibraryitem {
+  padding: 50px;
+  display: flex;
+  border-bottom: 1px rgb(50, 49, 49) solid;
+}
+
+.State {
+  background: #27292a;
+  color: grey;
+  border: 1px grey solid;
+  position: relative;
+  top: 20px;
+  height: 50px;
+  width: 15%;
+  border-radius: 30px;
+}
+.librarybutton {
+  display: flex;
+  justify-content: center;
+}
+
+.viewlibrary {
+  cursor: pointer;
+  background: #ec6090;
+  padding: 20px;
+  width: 15%;
+  border-radius: 30px;
+  color: white;
+  position: relative;
+  bottom: 25px;
+  transition: all 0.4s;
+}
+
+.viewlibrary:hover {
+  color: #ec6090;
+  background-color: white;
+}
